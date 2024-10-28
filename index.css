@@ -1,0 +1,57 @@
+@font-face {
+	font-family: myFont;
+	src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+body {
+	font-family: Verdana, Arial, Tahoma,  sans-serif;
+	margin: 0;
+	background-color: #1b244a;
+	color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.score {
+	width: 155px;
+	height: 120px;
+	background-color: #080001;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	
+}
+.score h3 {
+	font-family: myFont;
+	font-size: 90px;
+	color: #F94F6D;
+	padding: 0px;
+	margin-top: 17px;   /* adding this top margin worke. I tried to do it with flex center but it just didn't work. maybe this is a hack?? */
+	align-items: center;
+	margin-bottom; 0px;
+	
+}
+.heading {
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 21px;
+
+}
+#add-point {
+	font-family: myFont;
+	margin-top: 26px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.adding {
+	border: 2px solid #9aabd8;
+	border-radius: 5px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+}
