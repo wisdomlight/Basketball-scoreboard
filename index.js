@@ -15,17 +15,17 @@ let guestScore= 0
 
 // functions
 
-function plusOne(){
+function plusOneHome(){
 	homeScore += 1
 	homeScoreEl.textContent = homeScore
 }
 
-function plusTwo(){
+function plusTwoHome(){
 	homeScore += 2
 	homeScoreEl.textContent = homeScore
 }
 
-function plusThree(){
+function plusThreeHome(){
 	homeScore += 3
 	homeScoreEl.textContent = homeScore
 }
